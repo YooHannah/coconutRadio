@@ -1,0 +1,25 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+   align-items: center; 
+} */
+
+.userinfo-avatar {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+}
+input {
+  margin-top: 20rpx;
+}
+button {
+  background-color: #398dee;
+  margin: 10rpx;
+  color: white;
+}
+.usermotto {
+  margin-top: 10px;
+  font-size: 125rpx;
+  font-family: 'Brush Script Std';
+}

@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/treeHole/treeHole"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Coconut Radio",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": "20ram"
+  }
+}

@@ -1,2 +1,10 @@
 <!--pages/treeHole/treeHole.wxml-->
-<text>pages/treeHole/treeHole.wxml</text>
+<view>
+<text>你有什么心事/建议想要告诉我吗？</text>
+<textarea bindinput='bindUpdate' placeholder="期待你的反馈" auto-height maxlength='-1'/>
+</view>
+<view>
+<button bindtap='bindButton'>发送</button>
+</view>
+
+

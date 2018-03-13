@@ -1,2 +1,8 @@
 <!--pages/search/search.wxml-->
-<text>pages/search/search.wxml</text>
+<view>
+  <input placeholder='请输入标题关键字' value='{{keywords}}' bindblur="bindKeyInput">{{keywords}}</input> 
+  <button bindtap='bindSearch'>查找</button>
+</view>
+<view>
+
+</view>

@@ -2,8 +2,11 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
+    "pages/newest/newest",
+    "pages/treeHole/treeHole",
     "pages/search/search",
-    "pages/treeHole/treeHole"
+    "pages/detail/detail",
+    "pages/songList/songList"
   ],
   "window": {
     "backgroundTextStyle": "light",

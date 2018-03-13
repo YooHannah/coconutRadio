@@ -9,19 +9,21 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     backgroundimg:'../../img/background.jpg',
-    keywords:''
   },
   //事件处理函数
   bindJump: function(e) {
-    console.log(e.currentTarget.dataset.val)
-    // wx.navigateTo({
-    //   url: ''
-    // })
-  },
-  bindKeyInput: function (e) {
-    console.log(e)
-    this.setData({
-      keywords: e.detail.value
+    let val = e.currentTarget.dataset.val;
+    let path='';
+    if(val== 1){
+      path = '../../pages/search/search'
+    }else if(val == 2){
+      console.log(111)
+      path = '../../pages/newest/newest'
+    }else if(val == 3){
+      path = '../../pages/treeHole/treeHole'
+    }
+    wx.navigateTo({
+      url: path
     })
   },
   onLoad: function () {

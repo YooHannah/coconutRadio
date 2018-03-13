@@ -1,0 +1,10 @@
+<!--pages/search/search.wxml-->
+<view>
+  <text>请长按识别二维码</text>
+</view>
+
+<view>
+<image bindtap="bindViewTap" src="{{codeimg}}" mode='widthFix'></image>
+</view>
+
+

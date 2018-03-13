@@ -5,62 +5,31 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    keywords: '',
+    results:[{
+      title:'孙燕姿',
+      id:0,
+      songs:[{
+        title:'当冬夜渐暖'
+      },{
+        title:'第一天'
+      }]
+    }, {
+      title: 'F.I.R',
+      id: 1,
+      songs: [{
+        title: '你的微笑'
+      },{
+        title: '雨樱花'
+      }]
+    }]
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
+  bindKeyInput: function (e) {
+    this.setData({
+      keywords: e.detail.value
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  bindSearch:function(){
+    console.log(this.data.keywords);
   }
 })

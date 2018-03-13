@@ -1,1 +1,22 @@
 /* pages/treeHole/treeHole.wxss */
+button {
+  background-color: #398dee;
+  margin: 10rpx;
+  color: white;
+}
+view {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-between;
+  padding: 3%;
+  box-sizing: border-box;  
+}
+textarea {
+  min-height: 200rpx;
+  border: 1rpx #398dee dotted;
+  margin-top:5%;
+  border-radius: 15rpx;
+  box-shadow: 10rpx;
+}

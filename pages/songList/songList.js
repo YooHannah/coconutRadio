@@ -5,62 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    list:[],
+    poster: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
+    name: '此时此刻',
+    author: '许巍',
+    src:'http://www.kugou.com/song/m7zhpd6.html#hash=75A1A10908C34BBB84FA08863FAA36D6&album_id=0'
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
+  onReady: function (options) {
+    let self = this;
+    wx.getStorage({
+      key: 'oneItem',
+      success: function (res) {
+          self.setData({
+            list: res.data.songs
+          })
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  }
 })

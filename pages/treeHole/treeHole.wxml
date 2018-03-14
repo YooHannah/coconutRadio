@@ -1,6 +1,7 @@
 <!--pages/treeHole/treeHole.wxml-->
 <view>
-<text>你有什么心事/建议想要告诉我吗？</text>
+<text wx:if='{{!flag}}'>你有什么心事/建议想要告诉我吗？</text>
+<text wx:if='{{flag}}'>你有什么评价想要告诉我吗？</text>
 <textarea bindinput='bindUpdate' placeholder="期待你的反馈" auto-height maxlength='-1'/>
 </view>
 <view>

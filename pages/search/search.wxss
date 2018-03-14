@@ -1,7 +1,7 @@
 /* pages/search/search.wxss */
 input{
   width: 65%;
-  height: 65rpx;
+  height: 70rpx;
   display: inline-block;
   border: 1rpx solid blue;
   margin: 0 5%;
@@ -9,8 +9,16 @@ input{
    padding: 0 20rpx; 
 }
 button{
-  height: 70rpx;
+  height: 75rpx;
   padding: 0 30rpx;
   font-size: 30rpx;
   display: inline-block;
+}
+.list{
+  padding: 20rpx 40rpx;
+}
+.item {
+  margin: 20rpx 0;
+  font-size: 50rpx;
+  border-bottom: 1rpx dotted blue;
 }

@@ -1,2 +1,8 @@
 <!--pages/songList/songList.wxml-->
-<text>pages/songList/songList.wxml</text>
+<view>
+songs list
+</view>
+<!--wx:for="{{list}}" wx:key='id' wx:for-item='item'   -->
+<view>
+<audio wx:for="{{list}}" wx:for-item='item' poster="{{item.poster}}" name="{{item.name}}" author="{{item.author}}" src="{{item.src}}" id="myAudio" controls loop  ></audio>
+</view>

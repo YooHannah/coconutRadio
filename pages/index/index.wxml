@@ -8,8 +8,8 @@
   </view>
 
   <view class='section'>
-  <button bindtap='bindJump' data-val='1'>查询</button>
-  <button bindtap='bindJump' data-val='2'>我想听最新一期</button>
+  <button bindtap='bindJump' data-val='1'>我想听最新一期</button>
+  <button bindtap='bindJump' data-val='2'>查询</button>
   <button bindtap='bindJump' data-val='3'>树洞</button>
   </view>
 

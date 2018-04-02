@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>share_player_play@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-15.0%" y="-15.0%" width="130.0%" height="130.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M24,37.5126311 L24,22.4873689 L24,22.4873689 C24,21.4594142 24.8333219,20.6260923 25.8612767,20.6260923 C26.1986218,20.6260923 26.5296246,20.7177747 26.8188956,20.8913374 L39.3399474,28.4039684 L39.3399474,28.4039684 C40.2214113,28.9328468 40.5072383,30.076155 39.97836,30.9576189 C39.8211756,31.2195929 39.6019213,31.4388472 39.3399474,31.5960316 L26.8188956,39.1086626 L26.8188956,39.1086626 C25.9374317,39.637541 24.7941234,39.3517139 24.2652451,38.47025 C24.0916825,38.1809789 24,37.8499762 24,37.5126311 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="全文" transform="translate(-152.000000, -199.000000)">
+            <g id="播放" transform="translate(158.000000, 205.000000)">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.300000012" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#FFFFFF" stroke-width="2" cx="30" cy="30" r="29"></circle>
+                </g>
+                <g id="Triangle">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#FFFFFF" stroke-width="1.8" d="M24.9,37.5126311 C24.9,37.6868566 24.9473504,37.8578066 25.0369887,38.0072038 C25.3101337,38.4624455 25.9006078,38.610064 26.3558494,38.336919 L38.8769012,30.8242879 C39.0122005,30.7431084 39.1254368,30.6298721 39.2066164,30.4945728 C39.4797614,30.0393311 39.3321429,29.4488571 38.8769012,29.1757121 L26.3558494,21.663081 C26.2064522,21.5734427 26.0355022,21.5260923 25.8612767,21.5260923 C25.3303782,21.5260923 24.9,21.9564705 24.9,22.4873689 L24.9,37.5126311 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

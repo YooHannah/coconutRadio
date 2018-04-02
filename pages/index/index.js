@@ -14,10 +14,9 @@ Page({
     let val = e.currentTarget.dataset.val;
     let path='';
     if(val== 1){
-      path = '../../pages/search/search'
-    }else if(val == 2){
-      console.log(111)
       path = '../../pages/newest/newest'
+    }else if(val == 2){
+      path = '../../pages/search/search'
     }else if(val == 3){
       path = '../../pages/treeHole/treeHole'
     }

@@ -5,7 +5,7 @@ var sendRequest = function (url, method, data, header) {
       url: rootDocment+url,
       data: data,
       method: method,
-      header: header || { 'Content-Type': 'application/json'},
+      header: header || { 'Content-Type': 'application/json', 'cookie':app.globalData.userInfo},
       success: resolve,
       fail: reject
     })

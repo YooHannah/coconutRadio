@@ -1,7 +1,6 @@
 //index.js
 //获取应用实例
-const app = getApp()
-
+const app = getApp();
 Page({
   data: {
     motto: 'Welcome!',
@@ -40,17 +39,6 @@ Page({
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
       app.userInfoReadyCallback = res => {
-       
-
-
-
-
-
-
-
-
-
-
       }
     } else {
       // 在没有 open-type=getUserInfo 版本的兼容处理
@@ -64,6 +52,15 @@ Page({
         }
       })
     }
+    app.func.http(app.globalData.interface.TEST, 'GET', app.globalData.userInfo, {})
+      .then(function (response) {
+        // that.setData({
+        //   positionlist: response.data.list
+        // });
+        console.log(response);
+      }, function (error) {
+        console.log(error);
+      });
   },
   getUserInfo: function(e) {
     console.log(e)

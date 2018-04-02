@@ -1,4 +1,6 @@
 //app.js
+var http = require('utils/http.js');
+const Interface = require('utils/interface.js');  
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -34,6 +36,10 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    interface:Interface
+  },
+  func:{
+    http: http.sendRequest
   }
 })

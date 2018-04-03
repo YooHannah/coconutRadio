@@ -15,11 +15,16 @@ view {
   padding: 3%;
   box-sizing: border-box;
 }
+.api {
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%
+}
 .api1 {
   position: relative;
 }
 .api2 {
 position: absolute;
-width: 50%;
-height: 50%;
+ width: 50%;
+height: 50%; 
 }

@@ -5,9 +5,12 @@
 </view> 
  <view>
    <image class="api1" src="http://fdfs.xmcdn.com/group30/M02/F7/B6/wKgJXlmIFT7yp4oKAABi2-DeRVI855.jpg" ></image>  
-   <image class="api2" src="http://fdfs.xmcdn.com/group30/M02/F7/B6/wKgJXlmIFT7yp4oKAABi2-DeRVI855.jpg" >
+   <image class="api2" src="https://s1.xmcdn.com/wap/css/img/share_player_play.svg?v=0.28707" >
    </image>
 </view> 
+<view>
+<progress percent="60" color="pink" />
+</view>
 <view>
 
 <audio wx:if='{{false}}' poster="http://fdfs.xmcdn.com/group30/M02/F7/B6/wKgJXlmIFT7yp4oKAABi2-DeRVI855.jpg" name="Rainy Mood" author="Rainy Mood" src="http://audio.xmcdn.com/group40/M02/C1/D8/wKgJT1qrLqWS1_gWABk7781rNK8359.m4a" id="myAudio1" controls loop ></audio>

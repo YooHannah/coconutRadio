@@ -15,36 +15,11 @@ view {
   padding: 3%;
   box-sizing: border-box;
 }
-img {
-  max-width: 100%;
-  font-size: 10px;
-  border: none;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
-  position: absolute;
+.api1 {
+  position: relative;
 }
-.buttonSty {
-  background: 0 0;
-  border-radius: 4px;
-  position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-a {
-  position: absolute;
-    left: 50%;
-    top: 50%;
-}
-.icon {
-  width: 45%;
-    padding-bottom: 45%;
-    background: url(https://s1.xmcdn.com/wap/css/img/share_player_play.svg?v=0.28707) no-repeat;
-    background-size: 100%;
-    position: relative;
-    height: 0;
-    transition: all .3s;
+.api2 {
+position: absolute;
+width: 50%;
+height: 50%;
 }

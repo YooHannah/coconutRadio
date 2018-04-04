@@ -58,6 +58,19 @@ Page({
       }]
     }]
   },
+  onLoad: function (options) {
+    let self = this;
+    //去获取最新前五期
+    app.func.http(app.globalData.interface.getnewest, 'GET', app.globalData.userInfo, {})
+      .then(function (response) {
+        self.setData({
+          info: response.data
+        });
+        console.log(response);
+      }, function (error) {
+        console.log(error);
+      });
+  },
   bindKeyInput: function (e) {
     this.setData({
       keywords: e.detail.value

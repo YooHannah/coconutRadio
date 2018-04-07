@@ -5,6 +5,7 @@
 </view>
 <view class='list'>
 <view wx:for="{{results}}" wx:key='id' wx:for-item='item' class='item' data-val='{{item}}' bindtap='bindJumpDetail'>
-{{item.title}}
+<span class='sp1'>{{item.time_until_now}}</span>  
+<span class='sp2'>{{item.title}}</span>
 </view>
 </view>

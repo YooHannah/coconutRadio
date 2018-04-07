@@ -4,7 +4,8 @@
     "pages/newest/newest",
     "pages/treeHole/treeHole",
     "pages/search/search",
-    "pages/songList/songList"
+    "pages/songList/songList",
+    "pages/feedBack/feedBack"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -3,7 +3,6 @@ var config = {
   test2:`/api/userinfo`,
   search:'/api/search',
   getnewest:`/api/newest`,
-  
-  
+  treeHole:'/api/treeHole',
 }
 module.exports = config;

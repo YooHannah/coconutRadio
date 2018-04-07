@@ -63,9 +63,9 @@ Page({
     //去获取最新前五期
     app.func.http(app.globalData.interface.getnewest, 'GET', app.globalData.userInfo, {})
       .then(function (response) {
-        self.setData({
-          info: response.data
-        });
+        // self.setData({
+        //   results: response.data
+        // });
         console.log(response);
       }, function (error) {
         console.log(error);
@@ -83,7 +83,7 @@ Page({
     app.func.http(app.globalData.interface.search, 'GET',senddata, {})
       .then(function (response) {
         self.setData({
-          result: response.data
+          results: response.data
         });
         console.log(response);
       }, function (error) {

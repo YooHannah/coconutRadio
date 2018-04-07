@@ -22,3 +22,13 @@ button{
   font-size: 50rpx;
   border-bottom: 1rpx dotted blue;
 }
+.sp1{
+  font-size: 35rpx;
+  display: inline-block;
+  
+}
+.sp2{
+  display: inline-block;
+  margin-left: 30rpx;
+  color: blue
+}
